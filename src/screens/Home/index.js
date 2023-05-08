@@ -14,7 +14,7 @@ const HomeScreen = () => {
       <ImageBackground
         source={require('../../../assets/images/wallpaper.jpg')}
         style={styles.image}>
-        <Text style={styles.title}>Go Near It</Text>
+        <Text style={styles.title}>Go Near</Text>
         <Pressable
           style={styles.button}
           onPress={() => console.warn('Explore Btn Explored')}>
